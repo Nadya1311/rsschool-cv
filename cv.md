@@ -24,4 +24,19 @@ My greatest strength is persistence. I work really hard, and I don’t give up e
 * Git/GitHub
 * Photoshop, Figma
 ---
+## Code examples:
+---
+``` 
+function isEven(integer){
+    if(integer % 2==0){
+        return true;
+    }else{
+        return false;
+    };
+};
 
+let c=isEven(6);
+console.log(c);
+ ```
+ ---
+ 
