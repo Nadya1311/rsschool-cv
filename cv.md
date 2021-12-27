@@ -26,7 +26,8 @@ My greatest strength is persistence. I work really hard, and I don’t give up e
 ---
 ## Code examples:
 ---
-``` 
+
+```javascript 
 function isEven(integer){
     if(integer % 2==0){
         return true;
@@ -34,12 +35,12 @@ function isEven(integer){
         return false;
     };
 };
-
 let c=isEven(6);
-console.log(c);
+console.log(c); 
  ```
  ---
  ## Education:
+ ---
  * __University:__ Belarusian State University of Food and Chemical Technologies    
     - _Speciality:_ Chemical Technology of Organic Substances, Materials and Products
     - _Specialization:_ Technology of Fibre and Film Products
