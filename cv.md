@@ -39,4 +39,9 @@ let c=isEven(6);
 console.log(c);
  ```
  ---
- 
+ ## Education:
+ * __University:__ Belarusian State University of Food and Chemical Technologies    
+    - _Speciality:_ Chemical Technology of Organic Substances, Materials and Products
+    - _Specialization:_ Technology of Fibre and Film Products
+
+
