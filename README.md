@@ -1,1 +1,1 @@
- https://Nadya1311.github.io/rsschool-cv/cv.md
+ https://Nadya1311.github.io/rsschool-cv/cv
