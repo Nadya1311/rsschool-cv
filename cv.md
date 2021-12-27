@@ -45,5 +45,9 @@ console.log(c);
     - _Specialization:_ Technology of Fibre and Film Products
 * __Courses:__ MyItSchool "Front-end web development from scratch"
 ---
+## Languages:
+---
+* Russian - Native
+* English - A2 
 
 
