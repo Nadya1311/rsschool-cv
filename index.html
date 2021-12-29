@@ -22,13 +22,13 @@
                 <div class="header__content">
                     <nav class="nav">
                         <ul class="nav__list">
-                            <li class="nav__item"><a href="#contacts" class="nav__item__link">Contacts</a></li>
                             <li class="nav__item"><a href="#summary" class="nav__item__link">About</a></li>
+                            <li class="nav__item"><a href="#contacts" class="nav__item__link">Contacts</a></li>
+                            <li class="nav__item"><a href="#education" class="nav__item__link">Education</a></li>
+                            <li class="nav__item"><a href="#languages" class="nav__item__link">Languages</a></li>
                             <li class="nav__item"><a href="#skills" class="nav__item__link">Skills</a></li>
-                            <li class="nav__item"><a href="#skills" class="nav__item__link">Code</a></li>
-                            <li class="nav__item"><a href="#skills" class="nav__item__link">Projects</a></li>
-                            <li class="nav__item"><a href="#skills" class="nav__item__link">Education</a></li>
-                            <li class="nav__item"><a href="#skills" class="nav__item__link">Languages</a></li>
+                            <li class="nav__item"><a href="#code" class="nav__item__link">Code</a></li>
+                            <li class="nav__item"><a href="#projects" class="nav__item__link">Projects</a></li>
                         </ul>
                     </nav>
                     <div class="header__info">
@@ -39,8 +39,83 @@
             </div>
         </div>
     </header>
-
-    </div>
-    
+    <main class="main">
+        <div class="conteiner">
+            <div class="main__wrapper">
+                <div class="sidebar">
+                    <section class="contacts">
+                        <h2 class="contacts__title" id="contacts">Contacts</h2>
+                        <hr class="sidebar__line"/>
+                        <ul class="contacts__list">
+                            <li class="contacts__list__item"><a class="item__tel" href="tel:+37529-889-09-73">+375(29) 889 09 73</a></li>
+                            <li class="contacts__list__item"><a class="item__mail" href="mailto:nadya.samosyuk.88@mail.ru">nadya.samosyuk.88@mail.ru</a></li>
+                            <li class="contacts__list__item"><a class="item__github" href="https://github.com/Nadya1311">Nadya1311</a></li>
+                        </ul>
+                    </section>
+                    <section class="skills">
+                        <h2 class="skills__title" id="skills">Skills</h2>
+                        <hr class="sidebar__line"/>
+                        <ul class="skills__list">
+                            <li class="skills__list__item"><img class="item__image" src="assets/png/html.png" alt="HTML">HTML</li>
+                            <li class="skills__list__item"><img class="item__image" src="assets/png/css.png" alt="CSS">CSS</li>
+                            <li class="skills__list__item"><img class="item__image" src="assets/png/js.png" alt="JavaScript">JavaScript Basics</li>
+                            <li class="skills__list__item"><img class="item__image" src="assets/png/github.png" alt="GitHub">GitHub</li>
+                            <li class="skills__list__item"><img class="item__image" src="assets/png/figma.png" alt="Figma">Figma</li>
+                            <li class="skills__list__item"><img class="item__image" src="assets/png/photoshop.png" alt="Photoshop">Photoshop</li>
+                          </ul>
+                    </section>
+                </div>
+                <div class="content">
+                    <section class="about">
+                        <h2 class="about__title" id="summary">About me</h2> 
+                        <hr class="content__line">
+                        <p class="about__desc">I’d describe myself as a goal-oriented and hardworking person with good organizational skills. I have good interpersonal skills, am an excellent team worker and very willing to learn and develop new skills. My greatest strength is persistence. I work really hard, and I don’t give up easily.</p>
+                    </section>
+                    <section class="education">
+                        <h2 class="education__title" id="education">Education</h2>
+                        <hr class="content__line"> 
+                        <h3 class="education__subtitle">University:</h3>
+                        <p class="education__desc">Belarusian State University of Food and Chemical Technologies</p>
+                        <ul class="education__list">
+                            <li class="education__list__item"><em>Speciality:</em> Chemical Technology of Organic Substances, Materials and Products</li>
+                            <li class="education__list__item"><em>Specialization:</em>Technology of Fibre and Film Products</li>
+                        </ul>
+                        <h3 class="education__subtitle">Courses:</h3>
+                        <p class="education__desc">MyItSchool "Front-end web development from scratch"</p>
+                        <img  class="education__certificate" src="assets/img/certificate.png" alt="certificate">
+                    </section>
+                    <section class="languages">
+                        <h2 class="languages__title" id="languages">Languages</h2>
+                        <hr class="content__line">
+                        <ul class="languages__list">
+                            <li class="languages__list__item">Russian - Native</li>
+                            <li class="languages__list__item">English - A2</li>
+                        </ul>
+                    </section>
+                    <section class="code">
+                        <h2 class="code__title" id="code">Code</h2>
+                        <hr class="content__line">
+                        <div class="code__wrap">
+                            <pre class="hljs" style="display: block; overflow-x: auto; padding: 0.1em; background: rgb(34, 34, 34); color: rgb(170, 170, 170);"> 
+                            <span class="hljs-function"><span class="hljs-keyword" style="color: rgb(102, 68, 170);">function</span> <span class="hljs-title" style="color: rgb(187, 17, 102);">isEven</span>(<span class="hljs-params">integer</span>)</span>{
+                                <span class="hljs-keyword" style="color: rgb(102, 68, 170);">if</span>(integer % <span class="hljs-number" style="color: rgb(0, 204, 102);">2</span>==<span class="hljs-number" style="color: rgb(0, 204, 102);">0</span>){
+                                    <span class="hljs-keyword" style="color: rgb(102, 68, 170);">return</span> <span class="hljs-literal" style="color: rgb(50, 170, 238);">true</span>;
+                                }<span class="hljs-keyword" style="color: rgb(102, 68, 170);">else</span>{
+                                    <span class="hljs-keyword" style="color: rgb(102, 68, 170);">return</span> <span class="hljs-literal" style="color: rgb(50, 170, 238);">false</span>;
+                                };
+                            };
+                            <span class="hljs-keyword" style="color: rgb(102, 68, 170);">let</span> c=isEven(<span class="hljs-number" style="color: rgb(0, 204, 102);">6</span>);
+                            <span class="hljs-built_in" style="color: rgb(50, 170, 238);">console</span>.log(c);
+                            </pre>
+                        </div>
+                    </section>
+                    <section class="projects">
+                        <h2 class="projects__title" id="projects">Projects</h2>
+                        <hr class="content__line">
+                    </section>
+                </div>
+            </div>
+        </div>
+    </main>   
 </body>
 </html>
