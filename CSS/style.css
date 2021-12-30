@@ -214,7 +214,6 @@ h2{
     margin-top: 40px;
     justify-content: space-between;
 }
-
 .projects__item__link{
     display: block;
     text-decoration: none;
@@ -266,5 +265,5 @@ h2{
     width: 40px;
 }
 .footer__rsschool__link__img{
-    width: 140px;
+    width: 138px;
 }
