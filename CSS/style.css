@@ -125,6 +125,16 @@ h2{
     color: #ffffff;
     transition: .5s;
 }
+.item__tel::before{
+    content:'\f098';
+    font-family: 'Fontawesome';
+    color: #007aff;
+}
+.item__mail::before{
+    content:'\f0e0';
+    font-family: 'Fontawesome';
+    color: #007aff;
+}
 .contacts__list__item a:hover{
     color: rgb(64, 244, 208);
     text-shadow: 0 20px 1px #007aff;
@@ -223,6 +233,38 @@ h2{
     border-radius: 20px;
     box-shadow: 12px 18px 16px rgba(3, 80, 94, 0.795);
 }
-.projects__link__title{
-    margin-top: 40px;
+.footer__wrap{
+    display: flex;
+    height: 120px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(17, 96, 98);
+}
+.footer__year{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Tourney', cursive;
+}
+.footer__github__link{
+    text-decoration: none;
+    font-family: 'Tourney', cursive;
+    font-weight: bold;
+    font-size: 36px;
+    color: #000000;
+}
+.footer__github__link::before{
+    content:'\f09b';
+    font-family: 'Fontawesome';
+    font-size: 40px;
+}
+.footer__rsschool__link{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+.footer__github__link__img{
+    width: 40px;
+}
+.footer__rsschool__link__img{
+    width: 140px;
 }
