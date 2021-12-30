@@ -17,6 +17,7 @@ h2{
     text-transform: uppercase;
     font-size: 28px;
     font-family: 'Lato', sans-serif;
+    letter-spacing: 2px;
 }
 .conteiner{
     max-width: 1170px;
@@ -73,6 +74,7 @@ h2{
 .header__title{
     font-family: 'Lato', sans-serif;
     font-size: 64px;
+    letter-spacing: 1.5px;
     padding-top: 60px;
     padding-bottom: 20px;
     padding-right: 20px;
@@ -196,4 +198,31 @@ h2{
 .code__wrap{
     margin-top: 40px;
     margin-bottom: 30px;
+}
+.projects__wrap{
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+}
+
+.projects__item__link{
+    display: block;
+    text-decoration: none;
+    transition: .5s;
+}
+.projects__item__link:hover{
+    transform: scale(1.1);
+}
+.projects__link__img{
+    width: 350px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    transition: .5s;
+}
+.projects__link__img:hover{
+    border-radius: 20px;
+    box-shadow: 12px 18px 16px rgba(3, 80, 94, 0.795);
+}
+.projects__link__title{
+    margin-top: 40px;
 }
